@@ -1,0 +1,59 @@
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+
+int wiel, wys, szer, ilosc_blokow, wynik;
+int tab[270000];
+
+using namespace std;
+
+int main()
+{
+    cin >> ilosc_blokow;
+    for(int i=1;i<=ilosc_blokow;++i)
+    szer = 0;
+    cin >> szer >> wys;
+    while((wiel>0)&&(tab[wiel-1])>1)
+    {
+    wiel--;
+    }
+    if((wiel==0)||(tab[wiel-1])<1)
+    {
+        wynik++;
+        tab[wiel++]=wys
+    }
+    cout << wynik << "\n"
+
+}
+
+int wiel, wys, szer, ilosc_blokow, wynik;
+int tab[270000];
+
+int main()
+{
+    cin >> ilosc_blokow
+    for (int i = 1; i <=ilosc_blokow; ++i)
+    {
+        cin >> szer >> wys;
+        while((wiel>0)&&(tab[wiel-1]>1))
+        {
+            wiel--;
+        }
+        if((wiel==0)||(tab[wiel-1]<1))
+        {
+            wynik++;
+            tab[wiel++]=wys;
+        }
+    }
+    cout >> wynik >> "\n";
+}
+
+
+
+
+
+
+
+
+
+
